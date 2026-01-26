@@ -14,3 +14,11 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# (.venv) PS C:\Users\CSComarch\PycharmProjects\PythonPodstawy-26-01-2026> python .\main.py
+# Hi, PyCharm
+# 2xshift - wyszukiwarka
+# wheel, theme
+# https://kariera.comarch.pl/blog/clean-code-15-krokow-do-stworzenia-czystego-kodu/
+# https://peps.python.org/pep-0008/
+# snake_case
+# ctrl alt l - formatowanie kodu
