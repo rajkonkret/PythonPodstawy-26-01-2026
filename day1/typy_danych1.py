@@ -93,9 +93,8 @@ print(f"Porównanie {a} <= {b} = {a <= b}")
 # Porównanie 6 < 8 = True
 # Porównanie 6 >= 8 = False
 # Porównanie 6 <= 8 = True
-print(f"Porównanie {a <= b = }") # Porównanie a <= b = True
+print(f"Porównanie {a <= b = }")  # Porównanie a <= b = True
 
-print(f"Porównanie {a} == {b} = {a == b}") # Porównanie czy równe? Porównanie 6 == 8 = False
-print(f"Porównanie {a} != {b} = {a != b}") # Porównanie czy różne? Porównanie 6 != 8 = True
-
-
+print(f"Porównanie {a} == {b} = {a == b}")  # Porównanie czy równe? Porównanie 6 == 8 = False
+print(f"Porównanie {a} != {b} = {a != b}")  # Porównanie czy różne? Porównanie 6 != 8 = True
+# https://naukapythona.com.pl/
