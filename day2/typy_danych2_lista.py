@@ -157,3 +157,19 @@ print(liczby)
 # 567
 # [54, 999, 34, 666, 567, 999, 'A']
 
+tekst = "Pyth on."
+# [], list()
+
+lista = [tekst]
+print(type(lista))  # <class 'list'>
+print(lista)  # ['Pyth on.']
+
+#  rozpakowanie sekwencji, extends()
+pusta_lista = list(tekst)
+print(pusta_lista)  # ['P', 'y', 't', 'h', ' ', 'o', 'n', '.']
+print(type(pusta_lista))  # <class 'list'>
+
+# tworzenie krotki (tupli) z listy
+krotka = tuple(lista_copy)
+print(type(krotka))  # <class 'tuple'>
+print(krotka)  # ('Anna', 'Ola', 'Radek')
