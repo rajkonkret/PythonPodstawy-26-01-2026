@@ -53,6 +53,27 @@ print(dictionary)
 # {'imie': ['Radek', 'Tomek', 'Magda'], 'wiek': 50, 'data': '12-12-2050'}
 # [('imie', 'Radek'), ('wiek', 50)] - lista krotek
 
-dict_small = {'x':2}
-dict_small.update([("y", 3),("z", 5)])
-print(dict_small) # {'x': 2, 'y': 3, 'z': 5}
+dict_small = {'x': 2}
+dict_small.update([("y", 3), ("z", 5)])
+print(dict_small)  # {'x': 2, 'y': 3, 'z': 5}
+
+# input() - pozwala wprowadzic dane do komputera np.:  z klawiatury
+# zwraca stringa
+# tekst = input("Podaj tekst")
+# print(tekst)
+# Podaj tekstRadek
+# Radek
+
+# napisac aplikacje kalulator
+# a = int(input("Podaj pierwszą liczbę:"))
+# b = input("Podaj drugą liczbę:")
+# print(a + float(b))  # 3.0
+
+# napisac aplikację słownik pol-ang
+pol_ang = {'pies': "dog", "kot": "cat", "dach": "roof"}
+print("Znam takie słówka:", pol_ang.keys())
+odp = input("Podaj słówko do przetłumaczenia:")
+print(f"Prawidłowa odpowiedż dla: {odp} to: {pol_ang.get(odp.strip().casefold(), "Nie ma")}")
+# Znam takie słówka: dict_keys(['pies', 'kot', 'dach'])
+# Podaj słówko do przetłumaczenia: Pies
+# Prawidłowa odpowiedż dla:  Pies to: dog
