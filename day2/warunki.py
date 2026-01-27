@@ -23,7 +23,7 @@ if odp:  # blok programu wykonany gdy warunek True
 print("Dalsza część programu")
 
 odp = "Radek"  # wpisanie danych do zmiennej
-if odp:
+if odp: # czy cokolwiek jest w zmiennej
     print("Dane zostały wczytane")
 # Dane zostały wczytane
 
