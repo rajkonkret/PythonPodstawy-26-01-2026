@@ -29,3 +29,6 @@ print(dictionary)  # {'imie': 'Tomek', 'wiek': 50}
 
 # wypisanie wartości dla klucza
 print(dictionary['imie'])  # Tomek
+
+dictionary['imie'] = ["Radek", "Tomek", "Magda"]
+print(dictionary) # {'imie': ['Radek', 'Tomek', 'Magda'], 'wiek': 50}
