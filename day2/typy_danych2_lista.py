@@ -149,4 +149,11 @@ print(lista_copy)  # ['Radek', 'Ola', 'Anna']
 lista_copy.reverse()  # tylko odwracanie
 print(lista_copy)  # ['Anna', 'Ola', 'Radek']
 
+liczby[3] = 666
+print(liczby[0:3])
+print(liczby[-3])
+print(liczby)
+# [54, 999, 34]
+# 567
+# [54, 999, 34, 666, 567, 999, 'A']
 
