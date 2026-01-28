@@ -34,3 +34,28 @@ products = [
     {"sku": 5, "exp_date": today, "price": 1200},
     {"sku": 6, "exp_date": tomorrow, "price": 700},
 ]
+
+for p in products:
+    print(p['exp_date'])
+    if p['exp_date'] != today:
+        continue  # kończy dziłanie z bieżącym elementem pętli
+    p['price'] *= 0.8  # p = p * 0.8
+    print(f"""
+Price for sku {p['sku']}
+is now: {p['price']:.2f}""")
+# Price for sku 1
+# is now: 160.00
+# 2026-01-28
+#
+# Price for sku 2
+# is now: 80.00
+# 2026-01-29
+# 2026-01-28
+#
+# Price for sku 4
+# is now: 1600.00
+# 2026-01-28
+#
+# Price for sku 5
+# is now: 960.00
+# 2026-01-29
