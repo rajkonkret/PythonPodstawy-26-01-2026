@@ -26,7 +26,7 @@ with open("test.log", "a", encoding='utf-8') as file:
     file.write("Dodane1\n")
     file.write("Dodane2\n")
     file.write("Dodane3\n")
-    file.write("Dośdane3\n")
+    file.write("Dośąźćdane3\n")
 
 with open("test.log", "r", encoding='utf-8') as file:
     lines = file.read()
