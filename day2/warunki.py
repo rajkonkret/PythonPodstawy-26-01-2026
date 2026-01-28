@@ -117,4 +117,28 @@ print(f"Rabat wynosi: {rabat}")
 # zasymulejemy system zbierania logów
 # zmienna: przechowuje typ systemu, console, email, inny
 # console: "Stało się coś strasznego"
+# email: "System email"
+# dodac do listy tłumaczenie błedu
+# zmienna: przechowuje poziom błedu: error, medium i inny
 
+lista_b = []
+alert_system = "email"
+error_level = "error"
+
+if alert_system == "console":
+    print("Stało się coś strasznego")
+elif alert_system == "email":
+    print("System email")
+    if error_level == "error":
+        lista_b.append("Krytyczny")
+    elif error_level == "medium":
+        lista_b.append("Ostrzeżenie")
+    else:
+        lista_b.append("inny")
+else:
+    print("Inny system")
+
+print(lista_b)
+
+# System email
+# ['Krytyczny']
