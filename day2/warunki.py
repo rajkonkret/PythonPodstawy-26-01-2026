@@ -23,7 +23,7 @@ if odp:  # blok programu wykonany gdy warunek True
 print("Dalsza część programu")
 
 odp = "Radek"  # wpisanie danych do zmiennej
-if odp: # czy cokolwiek jest w zmiennej
+if odp:  # czy cokolwiek jest w zmiennej
     print("Dane zostały wczytane")
 # Dane zostały wczytane
 
@@ -37,3 +37,18 @@ if odp:
 else:  # w innym przypadku, wartość domyślna
     print("Zero -> False")
 # Zero -> False
+
+a = "Radek"
+# długosc wiecej niz 3
+# wypisze tekst: Długośc wynosi: dl, więcej niż 3
+
+if len(a) > 3:
+    print(f"Długość wynosi: {len(a)}, wicej niż 3")
+
+n = len(a)
+if n > 3:
+    print(f"Długość wynosi: {n}, wicej niż 3")
+
+# walrus operator, operator morsa
+if (n := len(a)) > 3:
+    print(f"Długość wynosi: {n}, wicej niż 3")
