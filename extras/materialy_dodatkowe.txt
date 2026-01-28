@@ -129,3 +129,4 @@ blake8 - formater w vscode
 git/gitlens
 devcotainers
 duckDB
+indent rainbow
