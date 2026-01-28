@@ -47,3 +47,6 @@ print("Radek")  # imie<====>Radek | nazwisko<====>Kowalski | Radek, zresetuje zn
 print("Następna linia")
 # imie<====>Radek | nazwisko<====>Kowalski | Radek
 # Następna linia
+
+pol_ang = {'pies': "dog", "kot": "cat", "dach": "roof"}
+# zrobić słownik ang_pol
