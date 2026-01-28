@@ -40,3 +40,8 @@ while True:
         print("Błąd:", e)
     finally:
         print("Operacja wykonana")
+
+wyr = input("Podaj wyrażenie do obliczenia:")
+print(eval(wyr))
+# Podaj wyrażenie do obliczenia:5*7
+# 35
