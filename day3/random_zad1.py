@@ -24,3 +24,13 @@ print(random.choice(lista))  # 67
 # usunąc kulę
 # ctrl shift f - wyszukiwanie w całym projekcie
 
+lista_kule = list(range(1, 50))  # od 1 do 49
+wyn = random.choice(lista_kule)
+print(wyn)
+lista_kule.remove(wyn)
+
+print(random.choices(lista_kule, k=6))  # [32, 49, 23, 41, 32, 25], z powtórzeniami
+print(random.sample(lista_kule, k=6))  # [38, 33, 47, 4, 9, 32] bez powtórzeń
+print(random.sample(lista_kule, 6))  # [38, 33, 47, 4, 9, 32] bez powtórzeń
+# [2, 23, 24, 33, 41, 48]
+# [36, 47, 26, 17, 38, 31]
