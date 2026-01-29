@@ -68,3 +68,16 @@ resp = r'''{
      }'''
 
 dane = json.loads(resp)
+
+# wypisac klucze z tego slownika
+print(dane.keys())
+# dict_keys(['description', 'example', 'id', 'level', 'term'])
+
+for i in dane:
+    print(i)
+
+# description
+# example
+# id
+# level
+# term
