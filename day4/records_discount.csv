@@ -1,7 +1,7 @@
-sku,exp_date,price
-1,today,200
-2,today,100
-3,tomorrow,500
-4,today,2000
-5,today,1200
-6,tomorrow,700
+sku;exp_date;price
+1;today;200
+2;today;100
+3;tomorrow;500
+4;today;2000
+5;today;1200
+6;tomorrow;700

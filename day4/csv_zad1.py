@@ -43,7 +43,8 @@ filename = "records_discount.csv"
 list_product = [key for key in products[0]]
 print(list_product)
 
+# delimiter=";" - znak podziału
 with open(filename, "w", newline="") as f:
-    csvwriter = csv.DictWriter(f, fieldnames=list_product)
+    csvwriter = csv.DictWriter(f, fieldnames=list_product, delimiter=";")
     csvwriter.writeheader()  # zapis nagłowka - nazwy kolumn
     csvwriter.writerows(products)  # writerows, podajemy listę słowników
