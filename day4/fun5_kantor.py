@@ -17,12 +17,13 @@ def kantor(waluta):
     else:
         return usd
 
+
 kantor_usd = kantor("usd")
 kantor_usd(1000)
 # Wymieniam: 1000 usd na: 3520.0  pln
 
 kantor_eur = kantor("eur")
-kantor_eur(45567) # Wymieniam: 45567 eur na: 191837.07  pln
+kantor_eur(45567)  # Wymieniam: 45567 eur na: 191837.07  pln
 
 kantor_usd(678)
 # Wymieniam: 678 usd na: 2386.56  pln
