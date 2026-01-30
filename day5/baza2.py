@@ -73,3 +73,4 @@ finally:
 # Baza danych została podłączona
 # Połączenie zostało zamknięte
 # sqlalchemy - podejscie orm
+# duckDB
