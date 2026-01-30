@@ -130,3 +130,4 @@ git/gitlens
 devcotainers
 duckDB
 indent rainbow
+https://e-profesor.comarch.pl/zadania/course/view.php?id=323
